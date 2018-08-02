@@ -9,7 +9,7 @@ import javax.ws.rs.core.Application;
 import com.chrismyung.services.GoogleClientService;
 
 
-@ApplicationPath("/rest")
+@ApplicationPath("/")
 public class MainApp extends Application{
 
 	private Set<Object> singletons = new HashSet<Object>();
